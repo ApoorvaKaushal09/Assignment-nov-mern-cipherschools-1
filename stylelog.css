@@ -1,0 +1,46 @@
+form{
+    position: relative;
+    top: 200px;
+    background-color:rgb(156, 140, 199);
+    display : inline-block;
+    border : 10px inset #041d2cb8;
+    padding: 20px;
+}
+input[type=text]{
+    padding: 6px;
+    width: 400px;
+    height: 40px;
+    border:2px none black;
+    margin: 2px;
+    border-radius: 21px;
+    font-size: inherit;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type=password]{
+    padding: 6px;
+    width: 400px;
+    height: 40px;
+    border:2px none black;
+    margin: 2px;
+    border-radius: 21px;
+    font-size: inherit;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color:rgb(4, 29, 44);
+}
+.lab{
+    font-size: 30px;
+}
+form a{
+    font-size: 30px;
+}
+form a:hover{
+    background-color: yellow;
+}
+form a:active{
+    color: rgb(233, 20, 31);
+}
+form a:visited{
+    color: seagreen;
+}
